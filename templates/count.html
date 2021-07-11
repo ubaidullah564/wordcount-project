@@ -9,7 +9,9 @@
   <h1>There are {{words}} words in your text</h1>
   <h1>Your text:</h1>
   {{fulltext}}
-
+  <br>
+  <br>
+<button > <a href="{% url 'home' %}">Return Home</a></button>
 <h1>Word Count:</h1>
 {% for word,count in worddictionary %}
   <h3>{{ word }} :
